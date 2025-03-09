@@ -1,0 +1,11 @@
+let shoppingList = [];
+shoppingList.push("Milk", "Bread", "Apples");
+shoppingList.splice(1, 1, "Bananas", "Eggs");
+shoppingList.pop();
+shoppingList.sort();
+shoppingList.splice(1, 0,"Carrots", "Lettuce");
+// console.log(shoppingList.indexOf("Milk"));
+let newList = ["Juice", "Pop"];
+let finalList = shoppingList.concat(newList);
+let finalList2 = finalList.concat(newList);
+console.log(finalList2);
